@@ -1,0 +1,5070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1389</width>
+    <height>865</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>865</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Eye Tech Lab AutoCap: Round Table Version</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icon/Assets/icon/logo.png</normaloff>:/icon/Assets/icon/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(240, 240, 240, 255), stop:1 rgba(210, 210, 210, 255));
+border:0px
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:1 #A0A0A0, stop:0 rgba(240, 240, 240, 255));
+border:0px</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_title">
+      <property name="styleSheet">
+       <string notr="true">background:rgba(240, 240, 240, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_scanType">
+         <property name="minimumSize">
+          <size>
+           <width>208</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI Semibold</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgba(240, 240, 240, 255);</string>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>Chin Rest Controller</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="margin">
+          <number>20</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>751</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_setting">
+         <property name="minimumSize">
+          <size>
+           <width>220</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>240</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI Semibold</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 12px
+}
+QPushButton::hover {
+	background-color: rgb(210,223,233);
+}
+QPushButton::pressed {
+	background-color:  rgba(170, 170, 170, 255);
+	
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Settings</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_content">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:1 #A0A0A0, stop:0 rgba(240, 240, 240, 255));</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_menu">
+         <property name="minimumSize">
+          <size>
+           <width>440</width>
+           <height>700</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(240, 240, 240, 255), stop:1 rgba(210, 210, 210, 255));
+border:0px
+
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QFrame" name="frame_Intro_Scan_Pattern">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="palette">
+             <palette>
+              <active/>
+              <inactive/>
+              <disabled/>
+             </palette>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba()</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>10</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI Semibold</family>
+                 <pointsize>12</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>  Speed Control</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="styleSheet">
+             <string notr="true">background:rgba(0,0,0,0);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_58">
+             <item>
+              <widget class="QLabel" name="label_s_lr">
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Consolas</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_s_ud">
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Consolas</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_s_fb">
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Consolas</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>460</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background:rgba(0,0,0,0);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <property name="leftMargin">
+              <number>11</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_2">
+               <property name="minimumSize">
+                <size>
+                 <width>102</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_13">
+                <property name="spacing">
+                 <number>7</number>
+                </property>
+                <property name="leftMargin">
+                 <number>11</number>
+                </property>
+                <property name="topMargin">
+                 <number>11</number>
+                </property>
+                <property name="rightMargin">
+                 <number>11</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>11</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="button_speed_plus_lr">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Consolas</family>
+                    <pointsize>20</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	color:  rgb(100,100,100);;
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider_LeftRight">
+                  <property name="minimumSize">
+                   <size>
+                    <width>82</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">.QSlider {
+    min-Width: 80px;
+    /*max-height: 80px;*/
+	background:rgba(0,0,0,0);
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.QSlider::groove:vertical {
+    border: 1px solid  rgb(180,180,180);
+	border-radius: 4px;
+    width: 7px;
+    background: rgb(140,140,140);
+    margin: 0 12px;
+}
+
+.QSlider::handle:vertical {
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(255, 255, 255, 255), stop:1 rgba(245, 245, 245, 255));
+	border: 1px solid rgba(205,205,205,100);
+	width: 50px;
+    height: 50px;
+    margin: -2px -36px;
+}
+
+.QSlider::handle:vertical::hover {
+    background: rgb(224, 238, 249);
+}
+
+.QSlider::handle:vertical::pressed {
+    background: rgba(205, 205, 205, 255);
+}</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="button_speed_minus_lr">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Consolas</family>
+                    <pointsize>20</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	color:  rgb(100,100,100);;
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>-</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_3">
+               <property name="minimumSize">
+                <size>
+                 <width>102</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_14">
+                <item>
+                 <widget class="QPushButton" name="button_speed_plus_ud">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Consolas</family>
+                    <pointsize>20</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	color:  rgb(100,100,100);;
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider_UpDown">
+                  <property name="minimumSize">
+                   <size>
+                    <width>82</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">.QSlider {
+    min-Width: 80px;
+    /*max-height: 80px;*/
+	background:rgba(0,0,0,0);
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.QSlider::groove:vertical {
+    border: 1px solid  rgb(180,180,180);
+	border-radius: 4px;
+    width: 7px;
+    background: rgb(140,140,140);
+    margin: 0 12px;
+}
+
+.QSlider::handle:vertical {
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(255, 255, 255, 255), stop:1 rgba(245, 245, 245, 255));
+	border: 1px solid rgba(205,205,205,100);
+	width: 50px;
+    height: 50px;
+    margin: -2px -36px;
+}
+
+.QSlider::handle:vertical::hover {
+    background: rgb(224, 238, 249);
+}
+
+.QSlider::handle:vertical::pressed {
+    background: rgba(205, 205, 205, 255);
+}</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="button_speed_minus_ud">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Consolas</family>
+                    <pointsize>20</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	color:  rgb(100,100,100);;
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>-</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_4">
+               <property name="minimumSize">
+                <size>
+                 <width>102</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_15">
+                <item>
+                 <widget class="QPushButton" name="button_speed_plus_fb">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Consolas</family>
+                    <pointsize>20</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	color:  rgb(100,100,100);;
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="verticalSlider_ForwardBack">
+                  <property name="minimumSize">
+                   <size>
+                    <width>82</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">.QSlider {
+    min-Width: 80px;
+    /*max-height: 80px;*/
+	background:rgba(0,0,0,0);
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.QSlider::groove:vertical {
+    border: 1px solid  rgb(180,180,180);
+	border-radius: 4px;
+    width: 7px;
+    background: rgb(140,140,140);
+    margin: 0 12px;
+}
+
+.QSlider::handle:vertical {
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(255, 255, 255, 255), stop:1 rgba(245, 245, 245, 255));
+	border: 1px solid rgba(205,205,205,100);
+	width: 50px;
+    height: 50px;
+    margin: -2px -36px;
+}
+
+.QSlider::handle:vertical::hover {
+    background: rgb(224, 238, 249);
+}
+
+.QSlider::handle:vertical::pressed {
+    background: rgba(205, 205, 205, 255);
+}</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="button_speed_minus_fb">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>53</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Consolas</family>
+                    <pointsize>20</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	color:  rgb(100,100,100);;
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>-</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>91</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background:rgab(0,0,0,0);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_57">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="minimumSize">
+                <size>
+                 <width>102</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Left Right&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="minimumSize">
+                <size>
+                 <width>120</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Up Down&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="minimumSize">
+                <size>
+                 <width>102</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>102</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Forward Back&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background:rgab(0,0,0,0);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_18">
+             <item>
+              <widget class="QPushButton" name="button_save_spd">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI Semibold</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	background-color: rgba(255, 255, 255, 100);
+	height: 70px;
+	border-radius: 12px
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Save</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>:/icon/Assets/icon/U_H.png</normaloff>:/icon/Assets/icon/U_H.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>35</width>
+                 <height>35</height>
+                </size>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="button_undo_spd">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI Semibold</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	background-color: rgba(255, 255, 255, 100);
+	height: 70px;
+	border-radius: 12px
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Undo</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>:/icon/Assets/icon/U_H.png</normaloff>:/icon/Assets/icon/U_H.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>35</width>
+                 <height>35</height>
+                </size>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_option">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: white</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="Page_main">
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <property name="spacing">
+               <number>7</number>
+              </property>
+              <property name="leftMargin">
+               <number>7</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>7</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_8">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_9">
+                 <item>
+                  <widget class="QFrame" name="frame_lrud">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_16">
+                    <item>
+                     <widget class="QFrame" name="frame_9">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_6">
+                       <item>
+                        <widget class="QPushButton" name="button_move_up">
+                         <property name="minimumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Semibold</family>
+                           <pointsize>18</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="contextMenuPolicy">
+                          <enum>Qt::DefaultContextMenu</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 30px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);;
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>︿
+Up</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_10">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_8">
+                       <item>
+                        <widget class="QPushButton" name="button_move_left">
+                         <property name="minimumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Semibold</family>
+                           <pointsize>18</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="contextMenuPolicy">
+                          <enum>Qt::DefaultContextMenu</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 30px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);;
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>〈 Left     </string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="horizontalSpacer">
+                         <property name="orientation">
+                          <enum>Qt::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="button_move_right">
+                         <property name="minimumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Semibold</family>
+                           <pointsize>18</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="contextMenuPolicy">
+                          <enum>Qt::DefaultContextMenu</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 30px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);;
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>    Right 〉</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_11">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_7">
+                       <item>
+                        <widget class="QPushButton" name="button_move_down">
+                         <property name="minimumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>180</width>
+                           <height>180</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Semibold</family>
+                           <pointsize>18</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="contextMenuPolicy">
+                          <enum>Qt::DefaultContextMenu</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 30px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);;
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>Down
+ ﹀</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_12">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_19">
+                       <item>
+                        <widget class="QPushButton" name="button_main_connect">
+                         <property name="minimumSize">
+                          <size>
+                           <width>180</width>
+                           <height>49</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>180</width>
+                           <height>49</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Semibold</family>
+                           <pointsize>12</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="contextMenuPolicy">
+                          <enum>Qt::DefaultContextMenu</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}
+</string>
+                         </property>
+                         <property name="text">
+                          <string>Connect</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_fb">
+                   <property name="maximumSize">
+                    <size>
+                     <width>206</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_10">
+                    <item>
+                     <widget class="QPushButton" name="button_move_fwd">
+                      <property name="minimumSize">
+                       <size>
+                        <width>180</width>
+                        <height>180</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>180</width>
+                        <height>180</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>18</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="contextMenuPolicy">
+                       <enum>Qt::DefaultContextMenu</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 30px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);;
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string> ︽
+Forward</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="button_move_bwd">
+                      <property name="minimumSize">
+                       <size>
+                        <width>180</width>
+                        <height>180</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>180</width>
+                        <height>180</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>18</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="contextMenuPolicy">
+                       <enum>Qt::DefaultContextMenu</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 30px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);;
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Backword
+ ︾</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="Page1">
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <property name="spacing">
+               <number>7</number>
+              </property>
+              <property name="leftMargin">
+               <number>7</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>7</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="Page_Horizontal">
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <property name="spacing">
+               <number>7</number>
+              </property>
+              <property name="leftMargin">
+               <number>7</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>7</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="sub_frame_speed_show_h">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>110</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_13">
+                 <item>
+                  <widget class="QLabel" name="label_scanSpeed_h">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>15</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Scan Speed</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                   </property>
+                   <property name="margin">
+                    <number>20</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_scanSpeed_val_h_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>270</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>270</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>26</pointsize>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_scanSpeed_val_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>26</pointsize>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="text">
+                    <string>0</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_scanSpeed_val_h_actual">
+                   <property name="minimumSize">
+                    <size>
+                     <width>156</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>156</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color:#909090;</string>
+                   </property>
+                   <property name="text">
+                    <string>100%</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="sub_frame_studyID_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>267</width>
+                     <height>64</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>267</width>
+                     <height>64</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">	color: rgb(255,255,255);
+	border-radius: 20px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgb(170,170,170);
+
+</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_44">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>7</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>7</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_scanID_h">
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>14</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">border: 0px; background:rgba(0,0,0,0);</string>
+                      </property>
+                      <property name="text">
+                       <string>Study ID</string>
+                      </property>
+                      <property name="margin">
+                       <number>20</number>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_studyID_h">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>38</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI</family>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">	border-radius: 14px; 
+	color: black;
+	background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:1 rgba(255,255,255,255), stop:0 rgba(245,245,245,255));
+/*qradialgradient(cx:0,cy:0,radius:1,fx:0.5,fy:0.5,stop:1 rgba(205, 205, 205, 205), stop:0 rgba(170, 170, 170, 255));*/
+	border: 1px solid rgb(170,170,170);</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_43">
+                       <property name="leftMargin">
+                        <number>20</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>2</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>20</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>5</number>
+                       </property>
+                       <item>
+                        <widget class="QTextEdit" name="textEdit_studyID_h">
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Semibold</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">	border-radius: 10px; 
+	background-color: rgba(0,0,0,0);
+	border-radius: 20px;
+	/*background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:1 rgba(205, 205, 205, 205), stop:0 rgba(170, 170, 170, 255));*/
+	border: 0px solid rgb(170,170,170);</string>
+                         </property>
+                         <property name="verticalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="horizontalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="html">
+                          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI Semibold'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="sub_frame_speed_adjust_h">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>110</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">	color: rgb(255,255,255);
+	border-radius: 20px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgb(170,170,170);
+
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_12">
+                 <property name="topMargin">
+                  <number>11</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="button_speed_minus_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>-</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSlider" name="slider_speed_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>82</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>82</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">.QSlider {
+    min-height: 80px;
+    max-height: 80px;
+	background:rgba(0,0,0,0);
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.QSlider::groove:horizontal {
+    border: 1px solid  rgb(180,180,180);
+	border-radius: 4px;
+    height: 7px;
+    background: rgb(140,140,140);
+    margin: 0 12px;
+}
+
+.QSlider::handle:horizontal {
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(255, 255, 255, 255), stop:1 rgba(245, 245, 245, 255));
+	border: 1px solid rgba(205,205,205,100);
+	width: 50px;
+    height: 120px;
+    margin: -24px -12px;
+}
+
+.QSlider::handle:horizontal::hover {
+    background: rgb(224, 238, 249);
+}
+
+.QSlider::handle:horizontal::pressed {
+    background: rgba(205, 205, 205, 255);
+}</string>
+                   </property>
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="button_speed_plus_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>+</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_2_h">
+                <property name="font">
+                 <font>
+                  <kerning>true</kerning>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">	color: rgba(255,255,255,0);
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));*/
+</string>
+                </property>
+                <property name="lineWidth">
+                 <number>0</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="sub_frame_dist_show_h">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>110</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_14">
+                 <item>
+                  <widget class="QLabel" name="label_scanDist_h">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>15</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Scan Distance</string>
+                   </property>
+                   <property name="margin">
+                    <number>20</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_scanDist_val_h">
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>26</pointsize>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="text">
+                    <string>0</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_scanDist_filler_h">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="sub_frame_dist_adjust_h">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>110</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">	color: rgb(255,255,255);
+	border-radius: 20px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgb(170,170,170);
+
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_11">
+                 <item>
+                  <widget class="QPushButton" name="button_dist_minus_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>-</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSlider" name="slider_dist_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>82</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>82</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">.QSlider {
+    min-height: 80px;
+    max-height: 80px;
+	background:rgba(0,0,0,0);
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.QSlider::groove:horizontal {
+    border: 1px solid  rgb(180,180,180);
+	border-radius: 4px;
+    height: 7px;
+    background: rgb(140,140,140);
+    margin: 0 12px;
+}
+
+.QSlider::handle:horizontal {
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(255, 255, 255, 255), stop:1 rgba(245, 245, 245, 255));
+	border: 1px solid rgba(205,205,205,100);
+	width: 50px;
+    height: 120px;
+    margin: -24px -12px;
+}
+
+.QSlider::handle:horizontal::hover {
+    background: rgb(224, 238, 249);
+}
+
+.QSlider::handle:horizontal::pressed {
+    background: rgba(205, 205, 205, 255);
+}</string>
+                   </property>
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="button_dist_plus_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>53</width>
+                     <height>53</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 10px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255205), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.05,fy:0.05,stop:0 rgba(205, 205, 205, 0), stop:1 rgba(170, 170, 170, 0));
+	border: 1px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>+</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_3_h">
+                <property name="lineWidth">
+                 <number>-1</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="sub_frame_direction_h">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_3">
+                 <item row="0" column="0" rowspan="2">
+                  <widget class="QLabel" name="label_gazedir_h_filler">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1" rowspan="2">
+                  <widget class="QPushButton" name="button_gazedir_h_1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Up Right</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2" rowspan="2">
+                  <widget class="QPushButton" name="button_gazedir_h_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Up</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3" rowspan="2">
+                  <widget class="QPushButton" name="button_gazedir_h_3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Up Left</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="4">
+                  <widget class="QLabel" name="label_gazedir_h_filler_3">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="4" rowspan="2">
+                  <widget class="QLabel" name="label_gazedir_h_filler_4">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="0" rowspan="2">
+                  <widget class="QLabel" name="label_gazedir_h">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Gaze Direction</string>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1" rowspan="2">
+                  <widget class="QPushButton" name="button_gazedir_h_4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Right</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="2" rowspan="2">
+                  <widget class="QPushButton" name="button_gazedir_h_5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Primary</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="3" rowspan="2">
+                  <widget class="QPushButton" name="button_gazedir_h_6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Left</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="4" rowspan="2">
+                  <widget class="QLabel" name="label_gazedir_h_filler_5">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="0">
+                  <widget class="QLabel" name="label_gazedir_h_filler_2">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="1">
+                  <widget class="QPushButton" name="button_gazedir_h_7">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Down Right</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="2">
+                  <widget class="QPushButton" name="button_gazedir_h_8">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Down</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="3">
+                  <widget class="QPushButton" name="button_gazedir_h_9">
+                   <property name="minimumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>112</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: black;
+	border-radius: 14px;
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(252,252,252,255), stop:1 rgba(240,240,240,255));
+	border: 0px solid rgba(170,170,170, 100);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Down Left</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="sub_frame_buttons_h">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>110</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_16">
+                 <item>
+                  <widget class="QPushButton" name="button_saveSetting_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>96</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>96</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Save</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="button_restoreSetting_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>96</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>96</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Undo</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_6">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="button_start_scan_h">
+                   <property name="minimumSize">
+                    <size>
+                     <width>145</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>145</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="contextMenuPolicy">
+                    <enum>Qt::DefaultContextMenu</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Start Scan</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="Page_About">
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QFrame" name="frame_softInfo">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>320</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout">
+                 <item row="0" column="0" rowspan="2">
+                  <widget class="QLabel" name="label_logo">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap>:/icon/Assets/icon/logo.png</pixmap>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QLabel" name="label_softInfo_1">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>24</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Eye Tech Lab</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <spacer name="horizontalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>189</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="1" column="2">
+                  <widget class="QLabel" name="label_softinfo_2">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>14</pointsize>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="text">
+                    <string>Gavin Herbert Eye Institute
+Center for Translational Vision Research
+University of California Irvine
+</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="3">
+                  <spacer name="horizontalSpacer_5">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>189</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_connection_status">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>120</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_22"/>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_device_option">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                 <item>
+                  <widget class="QPushButton" name="button_about_back">
+                   <property name="minimumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Back</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="Page_Output">
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="Page_Setting">
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <widget class="QFrame" name="sub_frame_setting_scanning_title">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_23">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_setting_scanning">
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI</family>
+                     <pointsize>15</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Speed Step Setting</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                   </property>
+                   <property name="margin">
+                    <number>20</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_setting_scanning_filler_2">
+                   <property name="font">
+                    <font>
+                     <family>Consolas</family>
+                     <pointsize>26</pointsize>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+                   </property>
+                   <property name="margin">
+                    <number>0</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_setting_scanning_filler">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="sub_frame_setting_scanning">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>244</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>244</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">	border: 2px solid white;
+	border-radius: 20px;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="sub_frame_setting_scanning_header">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>4</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">	color: rgb(255,255,255);
+	/*border-radius: 20px;
+    background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 0px solid rgb(170,170,170);
+	border-radius:0px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_24">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_set_scan_type">
+                      <property name="minimumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+border:2px solid rgb(255,255,255);
+border-radius:0px;
+border-top-left-radius:20px;</string>
+                      </property>
+                      <property name="text">
+                       <string>Control Type</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_set_scan_spd_range">
+                      <property name="minimumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="text">
+                       <string>Speed Range</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_set_spd_step">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="text">
+                       <string>Speed Step</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="sub_frame_setting_scanning_radial">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">	color: rgb(255,255,255);
+	/*border-radius: 20px;\n    background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:rgb(230,230,230);
+    border: 0px solid rgb(170,170,170);
+	border-radius:0px;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_40">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_set_radial">
+                      <property name="minimumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="text">
+                       <string>Left - Right</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="sub_frame_r_spd_range">
+                      <property name="minimumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_25">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>11</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>11</number>
+                       </property>
+                       <item>
+                        <widget class="QTextEdit" name="textEdit_lr_spd_range_max">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border:0px;</string>
+                         </property>
+                         <property name="verticalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="horizontalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="html">
+                          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Consolas'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;500&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QTextEdit" name="textEdit_lr_spd_range_min">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border:0px;</string>
+                         </property>
+                         <property name="verticalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="horizontalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="html">
+                          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Consolas'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;500&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="sub_frame_r_spd_step">
+                      <property name="minimumSize">
+                       <size>
+                        <width>237</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Consolas</family>
+                        <pointsize>14</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_27">
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QPushButton" name="button_set_lr_spd_plus">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {	
+	color: black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0);
+	border: 0px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>+</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_set_lr_spd_step">
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:0px solid rgb(255,255,255);
+border-radius:0px</string>
+                         </property>
+                         <property name="text">
+                          <string>100</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="button_set_lr_spd_minus">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {	
+	color: black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0);
+	border: 0px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>-</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="sub_frame_setting_scanning_vertical">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">	color: rgb(255,255,255);
+	background:rgb(245,245,245);
+    border: 0px solid rgb(170,170,170);
+	border-radius:0px;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <property name="lineWidth">
+                    <number>1</number>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_39">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_set_vertical">
+                      <property name="minimumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+border:2px solid rgb(255,255,255);
+border-radius:0px;
+color:black;</string>
+                      </property>
+                      <property name="text">
+                       <string>Up - Down</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="sub_frame_v_spd_range">
+                      <property name="minimumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_29">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>11</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>11</number>
+                       </property>
+                       <item>
+                        <widget class="QTextEdit" name="textEdit_ud_spd_range_max">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border:0px;</string>
+                         </property>
+                         <property name="verticalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="horizontalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="html">
+                          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Consolas'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;500&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QTextEdit" name="textEdit_ud_spd_range_min">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>70</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border:0px;</string>
+                         </property>
+                         <property name="verticalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="horizontalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="html">
+                          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Consolas'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;500&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="sub_frame_v_spd_step">
+                      <property name="minimumSize">
+                       <size>
+                        <width>237</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Consolas</family>
+                        <pointsize>14</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_30">
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QPushButton" name="button_set_ud_spd_plus">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {	
+	color: black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0);
+	border: 0px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>+</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_set_ud_spd_step">
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:0px solid rgb(255,255,255);
+border-radius:0px</string>
+                         </property>
+                         <property name="text">
+                          <string>0</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="button_set_ud_spd_minus">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {	
+	color: black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0);
+	border: 0px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>-</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="sub_frame_setting_scanning_horizontal">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">	color: rgb(255,255,255);
+	background:rgb(230,230,230);
+    border: 0px solid rgb(170,170,170);
+	border-radius:0px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_38">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_set_horiz">
+                      <property name="minimumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>220</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+border:2px solid rgb(255,255,255);
+border-radius:0px;
+color:black;</string>
+                      </property>
+                      <property name="text">
+                       <string>Foward - Backward</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="sub_frame_h_spd_range">
+                      <property name="minimumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>192</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_37">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>11</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>11</number>
+                       </property>
+                       <item>
+                        <widget class="QTextEdit" name="textEdit_fb_spd_range_max">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>70</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border:0px;</string>
+                         </property>
+                         <property name="verticalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="horizontalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="html">
+                          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Consolas'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;500&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QTextEdit" name="textEdit_fb_spd_range_min">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>70</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border:0px;</string>
+                         </property>
+                         <property name="verticalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="horizontalScrollBarPolicy">
+                          <enum>Qt::ScrollBarAlwaysOff</enum>
+                         </property>
+                         <property name="html">
+                          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Consolas'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;500&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="sub_frame_h_spd_step">
+                      <property name="minimumSize">
+                       <size>
+                        <width>237</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Consolas</family>
+                        <pointsize>14</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:2px solid rgb(255,255,255);
+border-radius:0px</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_33">
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QPushButton" name="button_set_fb_spd_plus">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {	
+	color: black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0);
+	border: 0px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>+</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_set_fb_spd_step">
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background:rgba(0,0,0,0);
+color:black;
+border:0px solid rgb(255,255,255);
+border-radius:0px</string>
+                         </property>
+                         <property name="text">
+                          <string>0</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="button_set_fb_spd_minus">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Consolas</family>
+                           <pointsize>14</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {	
+	color: black;
+	border-radius: 10px;
+	background:rgba(0,0,0,0);
+	border: 0px solid rgba(170,170,170,0);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color:rgba(205, 205, 205, 255);
+	color:white;
+	
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>-</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_device_container_rpi">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>80</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                 <item>
+                  <widget class="QPushButton" name="button_editDevice">
+                   <property name="minimumSize">
+                    <size>
+                     <width>160</width>
+                     <height>48</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>160</width>
+                     <height>48</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="contextMenuPolicy">
+                    <enum>Qt::DefaultContextMenu</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Search Arduino</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="button_testConnection_ard">
+                   <property name="minimumSize">
+                    <size>
+                     <width>176</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>176</width>
+                     <height>49</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="contextMenuPolicy">
+                    <enum>Qt::DefaultContextMenu</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+QPushButton::disable {
+	background-color:rgba(170, 170, 170, 255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Test Connection</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_arduino">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>48</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>48</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>14</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    selection-background-color: #111;
+    selection-color: yellow;
+    color: white;
+	background-color: qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:1 rgba(170,170,170,255), stop:0 rgba(130,130,130,255));
+    /*background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #565656, stop: 0.1 #525252, stop: 0.5 #4e4e4e, stop: 0.9 #4a4a4a, stop: 1 #464646);*/
+    border-style: solid;
+    border: 2px solid white;
+    border-radius:14px;
+    padding: 1px 0px 1px 20px;
+}
+
+
+QComboBox:hover, QPushButton:hover
+{
+    border: 2px solid yellow;
+    color: white;
+}
+
+QComboBox:editable {
+    background: red;
+    color: pink;
+}
+
+QComboBox:on
+{
+    padding-top: 0px;
+    padding-left: 20px;
+    color: white;
+    /*background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2d2d2d, stop: 0.1 #2b2b2b, stop: 0.5 #292929, stop: 0.9 #282828, stop: 1 #252525);*/
+	background-color:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:1 rgba(170,170,170,255), stop:0 rgba(130,130,130,255));
+    selection-background-color: #ffaa00;
+}
+
+QComboBox:!on
+{
+    color: white;
+    /*background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #666, stop: 0.1 #555, stop: 0.5 #555, stop: 0.9 #444, stop: 1 #333);*/
+	background-color:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:1 rgba(170,170,170,255), stop:0 rgba(130,130,130,255));
+}
+
+QComboBox QAbstractItemView
+{
+    border: 2px solid darkgray;
+    color: black;
+    selection-background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #111, stop: 1 #333);
+}
+
+QComboBox::drop-down
+{
+     subcontrol-origin: padding;
+     subcontrol-position: top right;
+     width: 15px;
+     color: black;
+     border-left-width: 0px;
+     border-left-color: darkgray;
+     border-left-style: solid; /* just a single line */
+     border-top-right-radius: 3px; /* same radius as the QComboBox */
+     border-bottom-right-radius: 3px;
+     padding-left: 10px;
+ }
+QComboBox::item {
+    text-align: center;
+}
+QComboBox::down-arrow, QSpinBox::down-arrow, QTimeEdit::down-arrow, QDateEdit::down-arrow
+{
+     image: url(:/icons/down_arrow.png);
+     width: 7px;
+     height: 5px;
+}</string>
+                   </property>
+                   <property name="editable">
+                    <bool>false</bool>
+                   </property>
+                   <property name="currentText">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="sub_frame_setting_button">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="QPushButton" name="button_saveSetting_restore">
+                   <property name="minimumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Restore Default</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="button_saveSetting_save">
+                   <property name="minimumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Save Setting</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="button_saveSetting_about">
+                   <property name="minimumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Segoe UI Semibold</family>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	border-radius: 14px;
+    /*background:qlineargradient(spread:pad, x1:0, y2:1, x1:0, y2:1, stop:0 rgba(245, 245, 245, 255), stop:1 rgba(220, 220, 220, 255));*/
+	background:qradialgradient(cx:0,cy:0,radius:1,fx:0.2,fy:0.2,stop:0 rgba(205, 205, 205, 205), stop:1 rgba(170, 170, 170, 255));
+	border: 1px solid rgba(170,170,170, 100);
+}
+QPushButton::hover {
+	background-color: rgb(224, 238, 249);
+	color: rgb(100,100,100);
+}
+QPushButton::pressed {
+	background-color: rgba(200, 200, 200, 255);
+	color: rgb(255,255,255);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>About</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="Page_Record">
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <property name="leftMargin">
+               <number>9</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>9</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_status_bar">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>26</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:  rgba(210, 210, 210, 255);
+border:0px</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_17">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>1050</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_disp_status">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI Semibold</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
